@@ -1,0 +1,446 @@
+
+
+
+/*tablet en horizontal y escritorios normales*/
+@media(max-width:1200px) {
+    #btn-menu:checked ~ .menu{
+        width: 95%;
+        margin: 0;
+    }
+    header{
+        width: 95%;
+    }
+    header label img{
+        margin-left: 91%;
+    }
+
+    .logo{
+        height: 50px;
+        width: 150px;
+    }
+    .portada{
+        height: 240px;
+        width: 95%; 
+    }
+    .texto-portada h1{
+        padding-top: 50px;
+    }
+    #sobre-mi{
+        height: 450px;
+        
+    }
+   
+
+    .biografia{
+        width: 90%;
+    }
+    .biografia h2{
+        font-size: 20px;
+    }
+    .biografia p{
+        font-size: 16px;
+    }
+
+    .foto-bio {
+        margin-top: 35px;
+    }
+    .foto-bio img{
+        width: 180px;
+        height: 250px;
+    }
+
+
+    #servicios{
+        height: 400px;
+        width: 95%;
+    }
+
+    #servicios p{
+        font-size: 16px;
+    }
+
+    #skills{
+        width: 95%;
+    }
+    .html{
+        width: 43%;
+        margin-left:35px;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-left: 0;
+    }
+    .html:hover{
+        width: 45%;
+    }
+    .css{
+        width: 43%;
+        margin: auto;
+        margin-bottom: 20px; 
+        height: 350px;
+        margin-right: 0;      
+    }
+    .css:hover{
+        width: 45%;
+    }
+    .js{
+        width: 43%;
+        margin-left:35px;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-left: 0;  
+    }
+    .js:hover{
+        width: 45%;
+    }
+    .git{
+        width: 43%;
+        margin: auto;
+        margin-bottom: 20px;
+        height: 350px;  
+        margin-right: 0; 
+    }
+    .git:hover{
+        width: 45%;
+    }
+    .bootstrap{
+        width: 43%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 350px;  
+    }
+    .bootstrap:hover{
+        width: 45%;
+    }
+
+    #contacto{
+        width: 90%;
+        height: 250px;
+    }
+
+
+}
+
+
+/* moviles en horizontales o tablets en vertical*/
+@media(max-width: 768px){
+   
+    #btn-menu:checked ~ .menu{
+        width: 95%;
+        margin: 0;
+    }
+    header{
+        width: 95%;
+    }
+    header label img{
+        margin-left: 88%;
+    }
+
+    .logo{
+        height: 50px;
+        width: 150px;
+    }
+    .portada{
+        height: 240px;
+        width: 95%; 
+    }
+    .texto-portada h1{
+        padding-top: 50px;
+    }
+    #sobre-mi{
+        height: 750px;
+        
+    }
+    .sobre-mi{
+        display: block;
+    }
+
+    .biografia{
+        width: 90%;
+    }
+    .biografia h2{
+        font-size: 20px;
+    }
+    .biografia p{
+        font-size: 16px;
+    }
+
+    .foto-bio {
+        margin-top: 35px;
+        margin-left: auto;  
+    }
+    .foto-bio img{
+        width: 180px;
+        height: 250px;
+    }
+    
+    #servicios {
+        height: 700px;
+        width: 95%;
+    }
+
+    .servicios{
+        display: block;
+       
+    }
+
+    .item-servicios1{
+        margin: auto;
+    }
+    .item-servicios2{
+        margin: auto;
+    }.item-servicios3{
+        margin: auto;
+    }
+  
+
+    #servicios h2{
+        font-size: 16px;
+        padding-bottom: 2px;
+        margin-bottom: 2px;
+    }
+
+    #servicios p{
+        font-size: 14px;
+        padding: 1px;
+    }
+
+
+  
+
+    #skills{
+        width: 95%;
+    }
+    .html{
+        width: 43%;
+        margin-left:35px;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-left: 0;
+    }
+    .html:hover{
+        width: 45%;
+    }
+    .css{
+        width: 43%;
+        margin: auto;
+        margin-bottom: 20px; 
+        height: 350px;
+        margin-right: 0;      
+    }
+    .css:hover{
+        width: 45%;
+    }
+    .js{
+        width: 43%;
+        margin-left:35px;
+        margin-bottom: 20px;
+        height: 350px;
+        margin-left: 0;  
+    }
+    .js:hover{
+        width: 45%;
+    }
+    .git{
+        width: 43%;
+        margin: auto;
+        margin-bottom: 20px;
+        height: 350px;  
+        margin-right: 0; 
+    }
+    .git:hover{
+        width: 45%;
+    }
+    .bootstrap{
+        width: 43%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 350px;  
+    }
+    .bootstrap:hover{
+        width: 45%;
+    }
+
+    #contacto{
+        width: 90%;
+        height: 250px;
+    }
+
+
+}
+
+/*moviles en vertical*/
+@media(max-width:576px){
+    #btn-menu:checked ~ .menu{
+        width: 100%;
+        margin: 0;
+    }
+    header{
+        width:100%;
+        margin: auto;
+        padding-left: 0;
+    }
+
+    header label img{
+        margin-left: 81%;
+    }
+
+    .logo{
+        width: 150px;
+        height: 40px;
+    }
+
+    .portada{
+        height: 200px;
+        width: 100%;
+        
+    }
+
+    #sobre-mi{
+        height: 720px;
+    }
+
+    .sobre-mi{
+        display: block;
+    }
+
+    .biografia{
+        width: 100%;
+            
+    }
+
+    #sobre-mi{
+        width: 100%;
+    }
+
+    .biografia h2{
+        font-size: 16px;
+        padding-bottom: 2px;
+        margin-bottom: 2px;
+    }
+
+    .biografia p{
+        font-size: 14px;
+        padding: 1px;
+        margin-bottom: 5px;
+    }
+
+    .foto-bio img{
+        width: 200px;
+        height: 250px;
+        padding: auto;
+    }
+
+    .foto-bio {
+        padding-top: 0;
+        margin-top: 0px;
+    }
+
+    #servicios {
+        height: 700px;
+        width: 100%;
+    }
+
+    .servicios{
+        display: block;
+       
+    }
+
+    .item-servicios1{
+        margin: auto;
+    }
+    .item-servicios2{
+        margin: auto;
+    }.item-servicios3{
+        margin: auto;
+    }
+  
+
+    #servicios h2{
+        font-size: 16px;
+        padding-bottom: 2px;
+        margin-bottom: 2px;
+    }
+
+    #servicios p{
+        font-size: 14px;
+        padding: 1px;
+    }
+
+    #porfolio{
+        width: 100%;
+    }
+
+    #skills{
+        width: 100%;
+       
+    }
+   
+
+    .skills p{
+       display: none;
+    }
+
+    .html{
+        width: 35%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 150px;
+    }
+    .html:hover{
+        width: 45%;
+    }
+    .css{
+        width: 35%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 150px;       
+    }
+    .css:hover{
+        width: 45%;
+    }
+    .js{
+        width: 35%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 150px;
+    }
+    .js:hover{
+        width: 45%;
+    }
+    .git{
+        width: 35%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 150px;
+    }
+    .git:hover{
+        width: 45%;
+    }
+    .bootstrap{
+        width: 35%;
+        margin: auto;
+        margin-bottom: 8px;
+        height: 150px;
+    }
+    .bootstrap:hover{
+        width: 45%;
+    }
+
+    #contacto{
+        height: 300px;
+        width: 100%;
+    }
+    .contacto{
+        display: block;
+    }
+
+    #contacto form{
+        width: 75%;
+    }
+
+    .text-area{
+        width: 95%;
+    }
+
+    
+}
